@@ -1,0 +1,98 @@
+html,body{
+    margin:0px;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgba(225,225,225,1.00);
+}
+.container {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin:auto;
+	margin-top: 50px;
+}
+
+.form{
+	border-radius: 0px;
+    border-width: 4px;
+    border-style:hidden;
+	display:flex;
+	flex-direction: column;
+	width:50%;
+	align-items:center;
+	background-color: white;
+	box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.form h2{
+	font-size: 2em;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin:40px;
+}
+
+.box{
+	padding:12px;
+	width:65%;
+	margin:15px;
+	border: 1px solid gray;
+	outline:none;
+	border-radius:12px;
+}
+
+#submit{
+	padding:12px 30px;
+	width: 40%;
+	margin-top: 40px;
+	margin-bottom:20px;
+	background-color: rgba(27,112,242,1.00);
+	color: white;
+	font-weight:bold;
+	border:none;
+	outline:none;
+	border-radius:20px;
+}
+
+#submit:hover{
+	cursor: pointer;
+	background-color: rgba(110,144,236,1.00);
+}
+.form a{
+	text-decoration: none;
+	color: blue;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.form a:hover {
+	color:rgba(110,144,236,1.00);
+}
+
+.side{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	background-color: red;
+}
+
+.side img{
+	width: 400px;
+	height: 410px;
+}
+/*.card {
+    border-radius: 12px;
+    border-width: 4px;
+    border-style:hidden;
+    min-width: 30%;
+    min-height: 50%;
+	display:flex;
+	flex-direction: center;
+	justify-content: center;
+	webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+	moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+}*/
