@@ -8,25 +8,27 @@ body{
 	background-color: rgba(225,225,225,1.00);
 }
 .container {
-    width: 800px;
-    height: 500px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 	margin:auto;
-	margin-top: 50px;
 }
-
-.form{
-	border-radius: 0px;
+.card{
+	background-color: white;
+	box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+	border-radius: 30px;
     border-width: 4px;
+	display: flex;
+	flex-direction: row;
+}
+.form{
     border-style:hidden;
 	display:flex;
 	flex-direction: column;
 	width:50%;
 	align-items:center;
-	background-color: white;
-	box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .form h2{
@@ -77,22 +79,13 @@ body{
 	align-items: center;
 	width: 50%;
 	background-color: red;
+	border-radius: 20px;
+	padding: 1em;
+	box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
 }
 
 .side img{
 	width: 400px;
 	height: 410px;
+	padding-left: 5px;
 }
-/*.card {
-    border-radius: 12px;
-    border-width: 4px;
-    border-style:hidden;
-    min-width: 30%;
-    min-height: 50%;
-	display:flex;
-	flex-direction: center;
-	justify-content: center;
-	webkit-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
-	moz-box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
-}*/
