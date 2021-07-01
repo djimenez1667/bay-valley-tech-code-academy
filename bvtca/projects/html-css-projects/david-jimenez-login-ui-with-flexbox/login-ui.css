@@ -7,7 +7,11 @@ html,body{
 body{
 	/*background-color: rgba(225,225,225,1.00); */
 	background-image: url("flame-hashira-kyojuro-rengoku-wallpaper-1920x1080_48.jpg");
+	overflow-x: hidden;
+	overflow-y: hidden;
 	background-size: cover;
+	background-repeat:no-repeat;
+	background-position: center;
 }
 .container {
     width: 100vw;
@@ -36,6 +40,7 @@ body{
 
 .form h2{
 	font-size: 2em;
+	color: rgba(27,112,242,1.00);
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	margin:40px;
 }
@@ -68,7 +73,7 @@ body{
 	background-color: rgba(110,144,236,1.00);
 }
 .form a{
-	text-decoration: none;
+	text-decoration: underline;
 	color: blue;
 	margin-top: 20px;
 	margin-bottom: 10px;
@@ -84,6 +89,8 @@ body{
 	width: 50%;
 	min-width:fit-content;
 	background-color: red;
+	border-style: solid;
+	border-color: gold;
 	border-radius: 20px;
 	padding: 1em;
 	box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
